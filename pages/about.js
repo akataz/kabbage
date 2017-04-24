@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import getPosts from '../lib/getPosts'
 
 export default () => (
   <div>

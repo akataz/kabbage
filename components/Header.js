@@ -1,4 +1,4 @@
-import Link from 'next/link'
+//import Link from 'next/link'
 import AppBar from 'material-ui/AppBar';
 
 const linkStyle = {
@@ -8,13 +8,7 @@ const linkStyle = {
 const Header = () => (
     <div>
         <AppBar />
-        <Link href="/">
-          <a style={linkStyle}>Home</a>
-        </Link>
-        <Link href="/about">
-          <a style={linkStyle}>About</a>
-        </Link>
     </div>
 )
 
-export default Header
+export default Header;

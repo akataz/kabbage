@@ -6,6 +6,8 @@
   "author": "Tyrus Brenc",
   "license": "MIT",
   "dependencies": {
+    "fetch": "^1.1.0",
+    "isomorphic-unfetch": "^1.0.0",
     "material-ui": "^0.17.4",
     "next": "^2.1.1",
     "react": "^15.5.4",
