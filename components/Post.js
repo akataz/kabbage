@@ -8,14 +8,16 @@ const Post = (props) => {
     readMore,
     pic,
     body
-  } = this.props;
-  <div>
-    <div>{title}</div>
-    <div>{tags}</div>
-    <div>{date}</div>
-    <img uri={pic}/>
-    <div>{body}
-  </div>
+  } = props.postData;
+  return (
+    <div>
+      <div>{title}</div>
+      <div>{tags}</div>
+      <div>{date}</div>
+      <img uri={pic}/>
+      <div>{body}</div>
+    </div>
+  )
 }
 
 export default Post;

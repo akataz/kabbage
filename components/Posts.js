@@ -1,5 +1,10 @@
+import createPosts from '../lib/utils'
 
-
-export default Posts = (props) => {
-  
+const Posts = (props) => {
+  console.log(props.postList.posts);
+  return (
+    <ul>{ createPosts(props.postList.posts) }</ul>
+  )
 }
+
+export default Posts;
