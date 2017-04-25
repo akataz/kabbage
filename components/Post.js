@@ -14,7 +14,7 @@ const Post = (props) => {
       <div>{title}</div>
       <div>{tags}</div>
       <div>{date}</div>
-      <img uri={pic}/>
+      <img src={pic}/>
       <div>{body}</div>
     </div>
   )
